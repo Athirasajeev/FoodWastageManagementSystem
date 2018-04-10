@@ -1,0 +1,2 @@
+# FoodWastageManagementSystem
+My MainProject
