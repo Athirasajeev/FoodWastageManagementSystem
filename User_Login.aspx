@@ -1,267 +1,244 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="User_Login.aspx.cs" Inherits="Project_forms_Guest_Login" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="User_Login.aspx.cs" Inherits="Project_forms_Guest_Login" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<title>Charity a charity Category Flat Bootstrap Responsive Web Template | Home :: w3layouts</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- jQuery (Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
-<!-- Custom Theme files -->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- Custom Theme files -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Charity Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<meta name="Description" content="Information architecture, Web Design, Web Standards." />
+<meta name="Keywords" content="your, keywords" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="Distribution" content="Global" />
+<meta name="Author" content="Erwin Aligam - ealigam@gmail.com" />
+<meta name="Robots" content="index,follow" />
+
+<link rel="stylesheet" href="images/Outdoor.css" type="text/css" />
+
+<title>HelpingHands</title>
+
     <style type="text/css">
         .style2
         {
-            width: 452px;
-            height: 41px;
+            width: 476px;
+        }
+        .style3
+        {
+            width: 476px;
+            height: 26px;
         }
         .style4
         {
-            width: 368px;
-            height: 41px;
+            height: 31px;
+        }
+        .style5
+        {
+            height: 30px;
         }
         .style6
         {
-            width: 452px;
+            height: 26px;
         }
-        .style10
+        .style7
         {
-            height: 41px;
+            width: 476px;
+            height: 29px;
         }
-        .style11
+        .style8
         {
-            height: 47px;
+            height: 29px;
         }
-        .style12
-        {
-            width: 368px;
-        }
-        .style13
-        {
-            height: 47px;
-            width: 368px;
-        }
-        .style14
-        {
-            height: 47px;
-            width: 452px;
-        }
-        .style15
-        {
-            width: 452px;
-            height: 20px;
-        }
-        .style16
-        {
-            width: 368px;
-            height: 20px;
-        }
-        .style17
-        {
-            height: 20px;
-        }
-    </style>
+        </style>
+
 </head>
 <body>
-<!---->
-<div class="header">
-	 <div class="container">
-		 <div class="header-top">
-			 <div class="logo">
-				 <a href="index.html"><h1>HELPING Hands<span>Food Redistribution System</span></h1></a>
-			 </div>
-			 <div class="hdr-address">
-				 <div class="address1">
-					 <h5> Athira Sajeev</h5>
-					 <p>Rajeebhavan Muvattupuzha Kerala, India</p>
-				 </div>
-				 <div class="call">
-					 <h5>949716798</h5>
-					 <p>Call me</p>
-				 </div>
-				 <div class="clearfix"></div>
-			 </div>
-			 <div class="search">
-				 <div class="search-box">
-					 <div id="sb-search" class="sb-search">
-						  <form>
-							<input class="sb-search-input" placeholder="search term..." type="search" name="search" id="search">
-							<input class="sb-search-submit" type="submit" value="">
-							<span class="sb-icon-search"> </span>
-						 </form>
-					 </div>
-				 </div>
-			 </div>
-			 <div class="clearfix"> </div>
-			 <!-- search-scripts -->
-			<script src="js/classie.js"></script>
-			<script src="js/uisearch.js"></script>
-				<script>
-				    new UISearch(document.getElementById('sb-search'));
-				</script>
-			<!-- //search-scripts -->
-		 </div>
-		 <div class="top-menu">
-			 <span class="menu">MENU</span>
-			 <ul>
-			 <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-			 <li><a href="Customer_reg.aspx"><span class="glyphicon glyphicon-registration-mark"  aria-hidden="true"></span>Sponsor Registration</a></li>
-			 <li><a href="NGO.aspx"><span class="glyphicon glyphicon-registration-mark"  aria-hidden="true"></span>Organization Registration</a></li>
-             <li><a href="about.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>About Us</a></li>
-             <li><a href="contact.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contact</a></li>
-			 <li><a href="user_login.aspx"><span class="glyphicon glyphicon-log-in"  aria-hidden="true"></span>Log In</a></li>
-			 
 
+<!-- wrap starts here -->
+<div id="wrap">
 
-			 </ul>
-		 </div>
-		 <!-- script-for-menu -->
-		 <script>
-		     $("span.menu").click(function () {
-		         $(".top-menu ul").slideToggle("slow", function () {
-		         });
-		     });
-		 </script>
-		 <!-- script-for-menu -->	
-		 <div class="clearfix"></div>
-	 </div>
-</div>
-<!---->
-
-<!---->
-<div class="welcome">
-	 <div class="container">
+	<!--header -->
+	<div id="header">			
+				
+		<h1 id="logo-text"><a href="index.html" title="" style="font-family: 'Brush Script MT'">HelpingHands</a></h1>	
+        	
+		<p id="slogan">What We Choose To Share Defines,Who We Are...</p>		
+			
+		<div id="header-links">
+			<p>
+			<a href="index.html">Home</a> | 
+			<a href="contact.html">Contact</a> | 
+			<a href="about.html">About</a>			
+			</p>			
+		</div>				
+		
+	<!--header ends-->					
+	</div>
+	
+	<div id="header-photo"><img src="images/header-photo.jpg" width="870" height="206" alt="header-photo" /></div>	
+	
+	<!-- navigation starts-->	
+	<div  id="nav">
+		<ul>
+			<li id="current"><a href="index.html">Home</a></li>
+			<li><a href="Donor_registration.aspx">Donor Registration</a></li>
+			<li><a href="Reciever_reg.aspx">Reciever Registration</a></li>
+			<li><a href="Agent_reg.aspx">Agency Registration</a></li>
+			<li><a href="about.html">About</a></li>		
+            <li><a href="contact.html">Contact</a></li>
+		</ul>
+	<!-- navigation ends-->	
+	</div>					
+			
+	<!-- content-wrap starts -->
+	<div id="content-wrap">
+				
+		<div id="main">
 	<form id="form1" runat="server">
     <div>
-    
-        <table style="width:100%;">
+    <table style="width:100%;">
             <tr>
-                <td class="style6">
+                <td class="style1">
                     </td>
                 <td class="style12">
                     &nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Label ID="Label3" runat="server" Font-Names="Andalus" 
+                    <asp:Label ID="Label3" runat="server" Font-Names="Brush Script MT" 
                         Font-Size="X-Large" Text="LOGIN FORM" Font-Bold="False" 
-                        ForeColor="#FFFF66"></asp:Label>
+                        ForeColor="#669900"></asp:Label>
                     &nbsp;</td>
-                <td class="style8">
-                    </td>
             </tr>
             <tr>
-                <td class="style6">
+                <td class="style1">
                     &nbsp;</td>
                 <td class="style12">
                     &nbsp;</td>
-                <td class="style8">
-                    &nbsp;</td>
             </tr>
             <tr>
-                <td class="style2">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Label ID="Label1" runat="server" Text="Username" Font-Names="Andalus" 
-                        Font-Size="Large" ForeColor="#FFFF66"></asp:Label>
+                <td class="style1">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="Label1" runat="server" Text="Username" Font-Names="Brush Script MT" 
+                        Font-Size="X-Large" ForeColor="Black"></asp:Label>
                 </td>
                 <td class="style4">
-                    <asp:TextBox ID="txtuname" runat="server" Height="28px" Width="210px" 
-                        Font-Names="Andalus" Font-Size="Large"></asp:TextBox>
+                    <asp:TextBox ID="txtuname" runat="server" Height="27px" Width="187px" 
+                        Font-Names="Aparajita" Font-Size="Medium" BackColor="#CCCCFF"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
                         ControlToValidate="txtuname" ErrorMessage="Enter Username..!!!" 
                         Font-Italic="True" Font-Names="Times New Roman" ForeColor="#FF3300"></asp:RequiredFieldValidator>
                 </td>
-                <td class="style10">
-                    &nbsp;</td>
             </tr>
             <tr>
-                <td class="style14">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Label ID="Label2" runat="server" Text="Password" Font-Names="Andalus" 
-                        Font-Size="Large" ForeColor="#FFFF66"></asp:Label>
+                <td class="style1">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="Label2" runat="server" Text="Password" Font-Names="Brush Script MT" 
+                        Font-Size="X-Large" ForeColor="Black"></asp:Label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </td>
                 <td class="style13">
-                    <asp:TextBox ID="txtpassword" runat="server" Height="28px" Width="210px" 
-                        Font-Names="Andalus" Font-Size="Large"></asp:TextBox>
+                    <asp:TextBox ID="txtpassword" runat="server" Height="27px" Width="185px" 
+                        Font-Names="Aparajita" Font-Size="Medium" BackColor="#CCCCFF"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
                         ControlToValidate="txtpassword" ErrorMessage="Enter Password..!!!" 
                         Font-Italic="True" Font-Names="Times New Roman" ForeColor="#FF3300"></asp:RequiredFieldValidator>
                 </td>
-                <td class="style11">
-                    <asp:Button ID="btnlogin" runat="server" Font-Names="Andalus" 
-                        Font-Size="Large" Text="Login" Height="32px" onclick="btnlogin_Click" 
-                        Width="82px" Font-Bold="True" />
-                </td>
             </tr>
             <tr>
-                <td class="style6">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Label ID="Label4" runat="server" Text="User Type" Font-Names="Andalus" 
-                        Font-Size="Large" ForeColor="#FFFF66"></asp:Label>
+                <td class="style1">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="Label4" runat="server" Text="User Type" Font-Names="Brush Script MT" 
+                        Font-Size="X-Large" ForeColor="Black"></asp:Label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </td>
                 <td class="style12">
                     <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" 
                         DataSourceID="SqlDataSource1" DataTextField="user_type" 
-                        DataValueField="user_type" Height="28px" Width="210px" 
-                        AppendDataBoundItems="True" Font-Names="Andalus" Font-Size="Large">
+                        DataValueField="user_type" Height="36px" Width="193px" 
+                        AppendDataBoundItems="True" Font-Names="Aparajita" Font-Size="Medium" 
+                        BackColor="#CCCCFF">
                         <asp:ListItem>--select--</asp:ListItem>
                     </asp:DropDownList>
                 </td>
-                <td class="style1">
-                    <asp:Button ID="btncancel" runat="server" Font-Names="Andalus" 
-                        Font-Size="Large" Text="CANCEL" Height="32px" Width="83px" 
-                        Font-Bold="True" onclick="btncancel_Click" />
-                </td>
             </tr>
             <tr>
-                <td class="style15">
+                <td class="style1">
                     <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
                         ConnectionString="<%$ ConnectionStrings:constr %>" 
-                        SelectCommand="SELECT * FROM [tbl_user_type]"></asp:SqlDataSource>
+                        SelectCommand="SELECT * FROM [tbl_role]"></asp:SqlDataSource>
                 </td>
                 <td class="style16">
+                    <asp:Button ID="btnlogin" runat="server" Font-Names="Andalus" 
+                        Font-Size="Large" Text="Login" Height="32px" onclick="btnlogin_Click" 
+                        Width="82px" Font-Bold="True" CssClass="button" />
+                &nbsp;<asp:Button ID="btncancel" runat="server" Font-Names="Andalus" 
+                        Font-Size="Large" Text="CANCEL" Height="32px" Width="83px" 
+                        Font-Bold="True" onclick="btncancel_Click" CssClass="button" />
                 </td>
-                <td class="style17">
-                    </td>
             </tr>
         </table>
     
     </div>
-    </form>
-	 </div>
-</div>
-<!---->
+    </form>		
+			<br />	
 
-<!---->
-<div class="join">
-	 <div class="container">
-		 <div class="col-md-9 join-info">
-		      <h3>We Do A Let To Make All The hungry peoples Of The World Happy</h3>
-			  <p>The redistribution is an enormously successful social innovation that tackles food waste and food poverty.</p>
-		 </div>
-		 <div class="col-md-3 join-link">
-				<a href="#">Join Us</a>
-		 </div>
-		  <div class="clearfix"></div>
-	 </div>
+		<!-- main ends -->	
+		</div>
+		
+		<div id="sidebar">
+			
+			<h3>Search Box</h3>	
+			<form action="#" class="searchform">
+				<p>
+				<input name="search_query" class="textbox" type="text" />
+  				<input name="search" class="button" value="Search" type="submit" />
+				</p>			
+			</form>	
+					
+			<h3>Sidebar Menu</h3>
+			<ul class="sidemenu">				
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#TemplateInfo">HelpingHands Is</a></li>
+				<li><a href="#SampleTags">Sample Tags</a></li>
+					
+				</ul>	
+				
+			
+			
+			
+				
+			<h3>Wise Words</h3>
+			<p>&quot;Most people don't realize how much food they throw away every day&quot; </p>
+					
+			<p class="align-right">-Athira Sajeev</p>
+					
+			<h3>Support Styleshout</h3>
+			<p>If you are interested in supporting my work and would like to contribute, you are
+			welcome , on my website - it will 
+			be a great help and will surely be appreciated.</p>			
+						
+		<!-- sidebar ends -->		
+		</div>
+		
+	<!-- content-wrap ends-->	
+	</div>
+		
+	<!-- footer starts -->		
+	<div id="footer-wrap">
+	
+		<div id="footer-bottom">		
+			
+			<p>
+			&copy; 2010 <strong>HelpingHands</strong>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+			Design by <a href="index.html">AthiraSajeev</a> |
+			
+   		    </p>
+			
+		</div>
+		
+<!-- footer ends-->
 </div>
-<!---->
-<div class="bottom-grids">
-	 <div class="container">
-		 
-		 <div class="clearfix"></div>
-	 </div>
+
+<!-- wrap ends here -->
 </div>
-<!---->
-<div class="copywrite">
-	 <div class="container">
-			 <p> © 2015 SocialService. All rights reserved | Design by <a href="http://w3layouts.com/">Designa</a></p>
-	 </div>
-</div>
-<!---->
+
 </body>
 </html>
+
+
 
